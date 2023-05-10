@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:4.1
+ID:5
+FN:MrsEmmieBourgeois
+N:Emmie
+EMAIL:emmie.bourgeois@example.com
+TEL:05-39-11-66-11
+ADR:France
+ADR:Strasbourg
+SORT-STRING:Bourgeois
+END:VCARD

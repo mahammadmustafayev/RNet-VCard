@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:4.1
+ID:2
+FN:MrÁngelAguilar
+N:Ángel
+EMAIL:angel.aguilar@example.com
+TEL:984-942-828
+ADR:Spain
+ADR:Málaga
+SORT-STRING:Aguilar
+END:VCARD

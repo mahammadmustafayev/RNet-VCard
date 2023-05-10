@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:4.1
+ID:4
+FN:MonsieurTomasMeunier
+N:Tomas
+EMAIL:tomas.meunier@example.com
+TEL:078 414 93 58
+ADR:Switzerland
+ADR:Wittnau
+SORT-STRING:Meunier
+END:VCARD
