@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:4.1
+ID:5
+FN:MrJamesSirko
+N:James
+EMAIL:james.sirko@example.com
+TEL:F95 X31-8255
+ADR:Canada
+ADR:Brockton
+SORT-STRING:Sirko
+PHOTO:https://randomuser.me/api/portraits/med/men/60.jpg
+END:VCARD

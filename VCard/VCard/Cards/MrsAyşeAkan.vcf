@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:4.1
+ID:2
+FN:MrsAyşeAkan
+N:Ayşe
+EMAIL:ayse.akan@example.com
+TEL:(048)-287-9466
+ADR:Turkey
+ADR:İzmir
+SORT-STRING:Akan
+PHOTO:https://randomuser.me/api/portraits/med/women/82.jpg
+END:VCARD

@@ -14,6 +14,7 @@ public record vCard
     public string Phone { get; init; }
     public string Country { get; init; }
     public string City { get; init; }
+    public string Photo { get; init; }
 }
 
 
@@ -44,7 +45,10 @@ public record Name
     public string last { get; init; }
 }
 
-
+public record Picture
+{
+    public string medium { get; init; }
+}
 
 public record Result
 {
@@ -55,7 +59,8 @@ public record Result
     public string email { get; init; }
     
     public string phone { get; init; }
-    
+    public Picture picture { get; init; }
+
     public Id id { get; init; }
     
 }

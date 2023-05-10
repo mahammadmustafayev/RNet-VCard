@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:4.1
+ID:1
+FN:MrVedatBiçer
+N:Vedat
+EMAIL:vedat.bicer@example.com
+TEL:(289)-434-1293
+ADR:Turkey
+ADR:Nevşehir
+SORT-STRING:Biçer
+PHOTO:https://randomuser.me/api/portraits/med/men/67.jpg
+END:VCARD

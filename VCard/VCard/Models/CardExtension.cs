@@ -1,5 +1,7 @@
 ﻿
 
+using System.Runtime.ConstrainedExecution;
+
 namespace VCard.Models;
 
 public static class CardExtension
@@ -17,16 +19,19 @@ public static class CardExtension
             ADR:{vCard.Country}
             ADR:{vCard.City}
             SORT-STRING:{vCard.LastName}
+            PHOTO:{vCard.Photo}
             END:VCARD
+        
             """;
-        string path = @"C:\\Users\\acer\\Desktop\\VCard\\VCard\\Cards\\"+vCard.FullName+".vcf";
+    
+        string path = @"C:\Users\acer\Desktop\RNet-VCard\VCard\VCard\Cards\" + vCard.FullName+".vcf";
         File.WriteAllText(path, Card);
     }
     public static void ToDeleteVCard(this vCard vCard)
     {
-        string path = @"C:\\Users\\acer\\Desktop\\VCard\\VCard\\Cards\\";
-        string[] removeFiles = Directory.GetFiles(path, "*.vcf");
-        foreach (var item in removeFiles)
+        string path = @"C: \Users\acer\Desktop\RNet - VCard\VCard\VCard\Cards\";
+        string[] removeCards = Directory.GetFiles(path, "*.vcf");
+        foreach (var item in removeCards)
         {
             File.Delete(item);
         }

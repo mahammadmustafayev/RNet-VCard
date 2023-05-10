@@ -21,7 +21,8 @@ internal class Program
                 City=item.location.city,
                 Country=item.location.country,
                 Email=item.email,
-                Phone=item.phone
+                Phone=item.phone,
+                Photo=item.picture.medium
             };
             card.ToVCard();
         }
